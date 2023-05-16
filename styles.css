@@ -38,6 +38,13 @@ body {
   input, textarea, select{
     width: 100%;
     margin: 10px 0 0;
+    min-height: 2em;
+  }
+
+  input, textarea {
+    background-color:#0a0a23 ;
+    border: #0a0a23 1px solid;
+    color: #ffffff;
   }
 
   .inline {
