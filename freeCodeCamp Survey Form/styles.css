@@ -83,9 +83,10 @@ label {
     height: 2em;
     font-size: 1.1rem;
     background-color:green;
-    border-color: green;
     border-radius: 2px;
+    border-color: green;
     min-width: 300px;
+    color: #f3f3f3;
   }
 
 
