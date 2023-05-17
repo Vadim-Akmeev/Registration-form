@@ -11,12 +11,12 @@
     <h1 id="title">freeCodeCamp Survey Form<h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <form id="survey-form">
-          <div><label>Name <input></label></div>
-          <div><label>Email <input></label></div>
-          <div><label>Age (optional) <input></label></div>
+          <div><label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label></div>
+          <div><label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required></label></div>
+          <div><label id="number-label" for="number">Age (optional) <input id="number" placeholder="10" type="number" pattern="[a-z0-5]{8,}" min="13" max="120" required></label></div>
           <div>
                 <p>Which option best describes your current role?</p>  
-            <select>
+            <select id="dropdown">
                     <option></option>
                     <option></option>
                     <option></option>
@@ -33,7 +33,7 @@
            </div>
            <div>
             <p>What is your favorite feature of freeCodeCamp?</p>  
-                <select>
+                <select id="dropdown">
                     <option></option>
                     <option></option>
                     <option></option>
@@ -57,10 +57,10 @@
            </div>
            <div>
                 <p>Any comments or suggestions?</p>
-                <label><textarea></textarea></label>
+                <label><textarea placeholder="Enter your comment here..."></textarea></label>
            </div>
            <div>
-            <button>Submit</button>
+            <button id="submit">Submit</button>
            </div>
         </form>
 </body>
